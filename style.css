@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+h1,h2,h3{
+    color: rgb(108, 191, 24);
+}
+.flag{
+    background-color: green;
+    width: 900px;
+    height: 500px;
+    border: green solid 2px;
+    position: relative;
+}
+.white{
+    background-color: white;
+    height: 500px;
+    width: 300px;
+}
+.moon{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    bottom: 80%;
+    border-radius: 50%;
+}
+.moon2{
+    width: 250px;
+    height: 250px;
+    background-color:green;
+    position: absolute;
+    border-radius: 50%;
+    right: 140px;
+    bottom: 140px;
+}
+.star {
+  width: 40px;
+  z-index: 1;
+  height: 40px;
+  background: white;
+  position: absolute;
+  left: 220px;
+ top: 100px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+footer{
+    color: white;
+}
